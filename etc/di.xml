@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Quote\Api\BillingAddressManagementInterface">
+        <plugin name="deployecom_billing_set_address_plugin"
+                type="DeployEcommerce\TrojanOrderPrevent\Plugin\TrojanOrderPreventBillingAddress"/>
+    </type>
+
+    <type name="Magento\Quote\Model\ShippingAddressManagementInterface">
+        <plugin name="deployecom_shipping_set_address_plugin"
+                type="DeployEcommerce\TrojanOrderPrevent\Plugin\TrojanOrderPreventShippingAddress"/>
+    </type>
+</config>
