@@ -15,6 +15,8 @@ saving of addresses with the following strings:
 gettemplate
 base64_
 afterfiltercall
+.filter(
+magdemo9816@proton.me
 ```
 If these are detected in the payload then an Exception is thrown and the address is not saved.
 

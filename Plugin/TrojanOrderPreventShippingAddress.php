@@ -29,7 +29,9 @@ class TrojanOrderPreventShippingAddress
     public $strings_to_find = [
         'gettemplate',
         'base64_',
-        'afterfiltercall'
+        'afterfiltercall',
+        '.filter(',
+        'magdemo9816@proton.me'
     ];
 
     /**
