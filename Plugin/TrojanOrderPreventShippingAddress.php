@@ -31,7 +31,10 @@ class TrojanOrderPreventShippingAddress
         'base64_',
         'afterfiltercall',
         '.filter(',
-        'magdemo9816@proton.me'
+        'magdemo9816@proton.me',
+        '.php',
+        'this.getTemp',
+        '{{var'
     ];
 
     /**
