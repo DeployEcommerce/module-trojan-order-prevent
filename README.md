@@ -17,7 +17,11 @@ base64_
 afterfiltercall
 .filter(
 magdemo9816@proton.me
+.php
+this.getTemp
+{{var
 ```
+
 If these are detected in the payload then an Exception is thrown and the address is not saved.
 
 ### Installation
