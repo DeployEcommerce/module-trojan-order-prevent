@@ -2,13 +2,28 @@
   "name": "deployecommerce/module-trojan-order-prevent",
   "description": "A Magento2 extension that prevents billing/shipping addresses being saved via the API with known trojan order strings.",
   "type": "magento2-module",
+  "keywords": [
+    "magento2",
+    "trojanorder",
+    "adobe commerce",
+    "magento"
+  ],
   "authors": [
     {
       "name": "Deploy",
       "email": "hello@deploy.co.uk",
+      "homepage": "https://www.deploy.co.uk",
       "role": "Agency"
+    },
+    {
+      "name": "Scott Robinson",
+      "homepage": "https://github.com/ssx",
+      "role": "Developer"
     }
   ],
+  "support": {
+    "issues": "https://github.com/DeployEcommerce/module-trojan-order-prevent/issues"
+  },
   "require": {},
   "license": "MIT",
   "autoload": {
